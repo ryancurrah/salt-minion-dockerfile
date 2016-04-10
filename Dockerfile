@@ -38,6 +38,8 @@ RUN yum install -y cabal-dev
 
 RUN cabal update
 
+RUN cabal install process-1.1.0.2 cabal
+
 RUN cabal install shellcheck
 
 RUN pip install flake8
