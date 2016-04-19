@@ -46,4 +46,4 @@ RUN pip install flake8
 
 VOLUME ['/sys/fs/cgroup']
 
-CMD ['usr/sbin/init']
+CMD ['/usr/sbin/init']
